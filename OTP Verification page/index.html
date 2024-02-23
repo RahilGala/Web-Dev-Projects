@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OTP Verification page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>OTP Verification</h1>
+        </div>
+        <p id="p1">Enter the verification code we sent to :</p>
+        <p id="p2"><b>+91 9876543210</b></p>
+        <div class="main-part">
+            <p id="p3">Type 4 digit security code</p>
+            <div class="num-box">
+                <input type="text" name="one" id="otp1" required min="0" max="9" >
+                <input type="text" name="two" id="otp2" required min="0" max="9">
+                <input type="text" name="three" id="otp3" required min="0" max="9">
+                <input type="text" name="four" id="otp4" required min="0" max="9">
+            </div>
+        </div>
+        <p id="p4">Didn't you receive the OTP? <a href="#">Resend OTP</a></p>
+        <div class="verify-btn">
+            <button class="btn" type="submit">Verify</button>
+        </div>
+    </div>
+</body>
+</html>
